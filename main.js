@@ -6,6 +6,7 @@ function addTask(){
 	const pElement = document.createElement("p")
 	const pButton = document.createElement("button")
 	pElement.textContent = textarea.value
+	pButton.innerHTML = "削除"
 	main.appendChild(pElement)
 	main.appendChild(pButton)
 
